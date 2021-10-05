@@ -68,15 +68,6 @@ int height(node* node)
 /* Helper function that allocates
 a new node with the given data
 and NULL left and right pointers. */
-node* newNode(int data)
-{
-    node* Node = new node();
-    Node->data = data;
-    Node->left = NULL;
-    Node->right = NULL;
-
-    return (Node);
-}
 
 // Driver code
 int main()
